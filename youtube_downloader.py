@@ -158,6 +158,6 @@ def threaded_download():
 
 # --- Buttons ---
 tk.Button(root, text="Fetch Resolutions", command=fetch_formats, bg="#2196F3", fg="white").pack(pady=5)
-tk.Button(root, text="Download Video", command=threaded_download, bg="#4CAF50", fg="white").pack(pady=10)
+tk.Button(root, text="Download Video", ommand=threaded_download, bg="#4CAF50", fg="white").pack(pady=10)
 
 root.mainloop()
